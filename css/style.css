@@ -28,14 +28,14 @@ h1 {
 
 body {
   background-color: var(--very-light-gray);
-  display: flex;
-  justify-content: center;
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
   
 }
 
 
 .card-container {
-  min-height: 900px;
   display: flex;
   overflow: hidden;
   align-items: center;
